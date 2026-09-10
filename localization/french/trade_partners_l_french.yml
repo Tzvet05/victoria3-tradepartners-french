@@ -1,6 +1,6 @@
 ﻿l_french:
- TRADE_PARTNERS_MARKET_TOOLTIP_IMPORT: "@market_imports! Importe [TradePartnersGetImportsFrom(Market, GetPlayer.GetMarket)|v0] biens totaux depuis le [GetPlayer.GetMarket.GetOwner.GetFlagTextIcon] [GetPlayer.GetMarket.GetName]"
- TRADE_PARTNERS_MARKET_TOOLTIP_EXPORT: "@market_exports! Exporte [TradePartnersGetExportsTo(Market, GetPlayer.GetMarket)|v0] biens totaux vers le [GetPlayer.GetMarket.GetOwner.GetFlagTextIcon] [GetPlayer.GetMarket.GetName]"
+ TRADE_PARTNERS_MARKET_TOOLTIP_IMPORT: "@market_imports! Importe [TradePartnersGetImportsFrom(Market, GetPlayer.GetMarket)|v0] biens depuis le [GetPlayer.GetMarket.GetOwner.GetFlagTextIcon] [GetPlayer.GetMarket.GetName]"
+ TRADE_PARTNERS_MARKET_TOOLTIP_EXPORT: "@market_exports! Exporte [TradePartnersGetExportsTo(Market, GetPlayer.GetMarket)|v0] biens vers le [GetPlayer.GetMarket.GetOwner.GetFlagTextIcon] [GetPlayer.GetMarket.GetName]"
  TRADE_PARTNERS_MARKET_TOOLTIP_VALUES: "[MakeLineIf(TradePartnersIsImporterFrom(Market, GetPlayer.GetMarket),'TRADE_PARTNERS_MARKET_TOOLTIP_IMPORT')][MakeLineIf(TradePartnersIsExporterTo(Market, GetPlayer.GetMarket),'TRADE_PARTNERS_MARKET_TOOLTIP_EXPORT')]"
  TRADE_PARTNERS_OTHER_MARKET_EXPORTS_TOOLTIP: "#white #b @market_exports! Exportations du [Market.GetName] vers le [GetPlayer.GetMarket.GetOwner.GetFlagTextIcon] [GetPlayer.GetMarket.GetName]\n#!#!Quantité : [TradePartnersGetExportsTo(Market, GetPlayer.GetMarket)|v0]"
  TRADE_PARTNERS_OTHER_MARKET_IMPORTS_TOOLTIP: "#white #b @market_imports! Importations du [Market.GetName] depuis le [GetPlayer.GetMarket.GetOwner.GetFlagTextIcon] [GetPlayer.GetMarket.GetName]\n#!#!Quantité : [TradePartnersGetImportsFrom(Market, GetPlayer.GetMarket)|v0]"
